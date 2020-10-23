@@ -6,7 +6,9 @@
 !*/
 
 *.exe
-Test*.*
-test*.*
-Data*.*
-data*.*
+Test*
+test*
+Data*
+data*
+Temp*
+temp*
