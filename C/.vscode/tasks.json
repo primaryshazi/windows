@@ -1,28 +1,28 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			"label": "gcc",
-			"command": "C:\\Develop\\mingw64\\bin\\gcc.exe",
-			"args": [
-				"-g",
-				"-Wall",
-				"${file}",
-				"-o",
-				"${workspaceRoot}\\build\\${fileBasenameNoExtension}.exe",
-				"-std=c11"
-			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc",
+            "command": "C:\\Develop\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "-Wall",
+                "${file}",
+                "-o",
+                "${workspaceRoot}\\build\\${fileBasenameNoExtension}.exe",
+                "-std=c11",
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
 }
