@@ -11,7 +11,7 @@
                 "${file}",
                 "-o",
                 "${workspaceRoot}\\build\\${fileBasenameNoExtension}.exe",
-                "-std=c++11"
+                "-std=c++14"
             ],
             "options": {
                 "cwd": "C:\\Develop\\mingw64\\bin"

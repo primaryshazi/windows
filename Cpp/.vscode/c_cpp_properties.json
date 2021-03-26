@@ -12,7 +12,7 @@
             ],
             "compilerPath": "C:\\Develop\\mingw64\\bin\\g++.exe",
             "cStandard": "c11",
-            "cppStandard": "c++11",
+            "cppStandard": "c++14",
             "intelliSenseMode": "gcc-x64"
         }
     ],
