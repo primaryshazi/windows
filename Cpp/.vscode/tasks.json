@@ -8,7 +8,7 @@
             "args": [
                 "-g",
                 "-Wall",
-                "${file}",
+                "${workspaceRoot}\\*.cpp",
                 "-o",
                 "${workspaceRoot}\\build\\${fileBasenameNoExtension}.exe",
                 "-std=c++17"
