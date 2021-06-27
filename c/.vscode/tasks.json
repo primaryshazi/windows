@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc",
+            "command": "C:\\Develop\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-g",
+                "-Wall",
+                "${workspaceRoot}\\*.c",
+                "-o",
+                "${workspaceRoot}\\build\\main.exe",
+                "-std=c17"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

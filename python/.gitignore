@@ -1,0 +1,15 @@
+# Ignore all
+*
+# Unignore all with extensions
+!*.*
+# Unignore all dirs
+!*/
+
+*.exe
+Test*
+test*
+Data*
+data*
+Temp*
+temp*
+main*
