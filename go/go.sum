@@ -1,4 +1,6 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
+github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
 github.com/liyue201/gostl v1.0.0 h1:tLbYeNIyQUjOQ+abhi9pamPsc5iJ1OvOXWB8cyVxUVM=
 github.com/liyue201/gostl v1.0.0/go.mod h1:rgK+T1a0sQ1+CsAonfuD1J8C4iuGfOU9VAt9mmR/m10=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
