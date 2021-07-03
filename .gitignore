@@ -6,10 +6,7 @@
 !*/
 
 *.exe
-Test*
 test*
-Data*
 data*
-Temp*
 temp*
 main*
