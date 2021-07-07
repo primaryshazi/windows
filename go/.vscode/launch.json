@@ -10,8 +10,8 @@
             "request": "launch",
             "mode": "debug",
             "program": "${file}",
-            "internalConsoleOptions": "openOnSessionStart",
             "stopOnEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
         },
     ]
 }

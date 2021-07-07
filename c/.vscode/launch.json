@@ -13,7 +13,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\Develop\\mingw64\\bin\\gdb.exe",
             "preLaunchTask": "gcc",
