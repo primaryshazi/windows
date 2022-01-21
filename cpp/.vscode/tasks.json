@@ -4,7 +4,7 @@
         {
             "type": "shell",
             "label": "g++",
-            "command": "C:\\Develop\\mingw64\\bin\\g++.exe",
+            "command": "C:\\Program Files\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
                 "-Wall",
@@ -14,7 +14,7 @@
                 "-std=c++17"
             ],
             "options": {
-                "cwd": "C:\\Develop\\mingw64\\bin"
+                "cwd": "C:\\Program Files\\mingw64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
