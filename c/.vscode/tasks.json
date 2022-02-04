@@ -1,11 +1,11 @@
 {
-    "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
-            "label": "gcc",
+            "type": "cppbuild",
+            "label": "GCC LAUNCH",
             "command": "C:\\Program Files\\mingw64\\bin\\gcc.exe",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
                 "-Wall",
                 "${workspaceRoot}\\*.c",
@@ -14,7 +14,7 @@
                 "-std=c17"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceRoot}\\build"
             },
             "problemMatcher": [
                 "$gcc"
@@ -22,7 +22,9 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "detail": "调试器生成的任务。"
         }
-    ]
+    ],
+    "version": "2.0.0"
 }
