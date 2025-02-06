@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "GCC LAUNCH",
+            "command": "D:\\Develop\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-Wall",
+                "${workspaceRoot}\\src\\*.c",
+                "-o",
+                "${workspaceRoot}\\build\\main.exe",
+                "-I${workspaceRoot}\\include",
+                "-L${workspaceRoot}\\lib",
+                "-std=c11",
+                "-lopengl32",
+                "-lglfw3dll",
+                "-lglad"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}\\build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
