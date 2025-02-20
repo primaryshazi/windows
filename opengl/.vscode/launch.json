@@ -28,7 +28,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "GCC LAUNCH"
+            "preLaunchTask": "G++ LAUNCH"
         }
     ]
 }

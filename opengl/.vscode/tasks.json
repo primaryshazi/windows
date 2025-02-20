@@ -2,18 +2,18 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "GCC LAUNCH",
-            "command": "D:\\Develop\\mingw64\\bin\\gcc.exe",
+            "label": "G++ LAUNCH",
+            "command": "D:\\Develop\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "-Wall",
-                "${workspaceRoot}\\src\\*.c",
+                "${workspaceRoot}\\src\\*.cpp",
                 "-o",
                 "${workspaceRoot}\\build\\main.exe",
                 "-I${workspaceRoot}\\include",
                 "-L${workspaceRoot}\\lib",
-                "-std=c11",
+                "-std=c++11",
                 "-lopengl32",
                 "-lglfw3dll",
                 "-lglad"

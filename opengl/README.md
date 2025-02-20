@@ -19,7 +19,7 @@
 
 将生成的libglad.a文件拷贝到lib目录下
 ``` bash
-
-gcc .\src\glad.c -c -I. \include\
+# cd glad
+gcc ./src/glad.c -c -I ./include
 ar -rc libglad.a glad.o
 ```
